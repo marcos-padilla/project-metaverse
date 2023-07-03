@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import About from '@/sections/About'
+import Explore from '@/sections/Explore'
 import Hero from '@/sections/Hero'
 
 export default function HomePage() {
@@ -9,6 +10,8 @@ export default function HomePage() {
 			<Hero />
 			<div className='relative'>
 				<About />
+				<div className='gradient-03 z-0' />
+				<Explore />
 			</div>
 		</div>
 	)
