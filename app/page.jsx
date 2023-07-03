@@ -4,6 +4,7 @@ import Explore from '@/sections/Explore'
 import GetStarted from '@/sections/GetStarted'
 import Hero from '@/sections/Hero'
 import WhatsNew from '@/sections/WhatsNew'
+import World from '@/sections/World'
 
 export default function HomePage() {
 	return (
@@ -20,6 +21,7 @@ export default function HomePage() {
 				<div className='gradient-04 z-0' />
 				<WhatsNew />
 			</div>
+			<World />
 		</div>
 	)
 }
